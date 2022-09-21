@@ -1,0 +1,66 @@
+<rdf:RDF
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:tns="http://www.test.com/"
+>
+  <rdf:Description rdf:about="http://www.twitter.com/losebabyweight1">
+    <rdf:type rdf:resource="http://www.test.com/User"/>
+    <tns:id>10243188921458</tns:id>
+    <tns:displayname>losebabyweight</tns:displayname>
+    <tns:preferredusername>losebabyweight1</tns:preferredusername>
+    <tns:image>https://pbs.twimg.com/profile_images/522696965503455233/WfF2aJ7N_normal.png</tns:image>
+    <tns:summary>http://www.losebabyweight.com.au offers mums safe and proven plans to lose weight. Lose an average of 1kg a week.</tns:summary>
+    <tns:friendscount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">218</tns:friendscount>
+    <tns:followerscount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1960</tns:followerscount>
+    <tns:statusescount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14439</tns:statusescount>
+    <tns:verified rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</tns:verified>
+    <tns:location>Australia</tns:location>
+    <tns:Tweets rdf:resource="http://twitter.com/losebabyweight1/statuses/715690143449899009"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.twitter.com/wantirnaweather">
+    <rdf:type rdf:resource="http://www.test.com/User"/>
+    <tns:id>1024397578801</tns:id>
+    <tns:displayname>Wantirna Weather</tns:displayname>
+    <tns:preferredusername>wantirnaweather</tns:preferredusername>
+    <tns:image>https://pbs.twimg.com/profile_images/580069194/Eclipse_003vsm_normal.jpg</tns:image>
+    <tns:summary>Personal Weather Station from Wantirna, Victoria, Australia.</tns:summary>
+    <tns:friendscount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28</tns:friendscount>
+    <tns:followerscount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">80</tns:followerscount>
+    <tns:statusescount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">66248</tns:statusescount>
+    <tns:verified rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</tns:verified>
+    <tns:location>Victoria, Australia</tns:location>
+    <tns:Tweets rdf:resource="http://twitter.com/wantirnaweather/statuses/715690141306650624"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://twitter.com/losebabyweight1/statuses/715690143449899009">
+    <rdf:type rdf:resource="http://www.test.com/Tweet"/>
+    <tns:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">149715690143449899009</tns:id>
+    <tns:text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CONGRATULATIONS Suzie Walker on both your beautiful little man and your FANTASTIC commitment and hard work. You... https://t.co/m4QLVq0BTr</tns:text>
+    <tns:favoritescount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</tns:favoritescount>
+    <tns:retweetcount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</tns:retweetcount>
+    <tns:Contains rdf:nodeID="Ncddf76fefe37491d892976e1a5f64048"/>
+    <tns:Using rdf:nodeID="Ne93b27ec8a6a4b4db9271474b5c2cff4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://twitter.com/wantirnaweather/statuses/715690141306650624">
+    <rdf:type rdf:resource="http://www.test.com/Tweet"/>
+    <tns:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">149715690141306650624</tns:id>
+    <tns:text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wantirna, VIC, AU 11:00 AM Temp 19.8°C, RH 67pct, Winds NNW @ 0.0 km/h, Rain Today  0 mm, 1014.3 hpa &amp;amp; Steady. #vicweather</tns:text>
+    <tns:favoritescount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</tns:favoritescount>
+    <tns:retweetcount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</tns:retweetcount>
+    <tns:Using rdf:nodeID="N6c8be2dc4eee41b9abb55fa6ee2e0c32"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ncddf76fefe37491d892976e1a5f64048">
+    <rdf:type rdf:resource="http://www.test.com/Link"/>
+    <tns:url>https://t.co/m4QLVq0BTr</tns:url>
+    <tns:expandedurl>http://fb.me/WUTD9TnQ</tns:expandedurl>
+    <tns:displayurl>fb.me/WUTD9TnQ</tns:displayurl>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ne93b27ec8a6a4b4db9271474b5c2cff4">
+    <rdf:type rdf:resource="http://www.test.com/Source"/>
+    <tns:name>Facebook</tns:name>
+    <tns:link>http://www.facebook.com/twitter</tns:link>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N6c8be2dc4eee41b9abb55fa6ee2e0c32">
+    <rdf:type rdf:resource="http://www.test.com/Source"/>
+    <tns:name>Weather Display Tweet</tns:name>
+    <tns:link>http://www.weather-display.com</tns:link>
+  </rdf:Description>
+</rdf:RDF>
