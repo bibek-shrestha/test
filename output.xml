@@ -14,7 +14,7 @@
     <tns:statusescount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14439</tns:statusescount>
     <tns:verified rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</tns:verified>
     <tns:location>Australia</tns:location>
-    <tns:Tweets rdf:resource="http://twitter.com/losebabyweight1/statuses/715690143449899009"/>
+    <tns:tweets rdf:resource="http://twitter.com/losebabyweight1/statuses/715690143449899009"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.twitter.com/wantirnaweather">
     <rdf:type rdf:resource="http://www.test.com/User"/>
@@ -28,7 +28,7 @@
     <tns:statusescount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">66248</tns:statusescount>
     <tns:verified rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</tns:verified>
     <tns:location>Victoria, Australia</tns:location>
-    <tns:Tweets rdf:resource="http://twitter.com/wantirnaweather/statuses/715690141306650624"/>
+    <tns:tweets rdf:resource="http://twitter.com/wantirnaweather/statuses/715690141306650624"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://twitter.com/losebabyweight1/statuses/715690143449899009">
     <rdf:type rdf:resource="http://www.test.com/Tweet"/>
@@ -36,8 +36,8 @@
     <tns:text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CONGRATULATIONS Suzie Walker on both your beautiful little man and your FANTASTIC commitment and hard work. You... https://t.co/m4QLVq0BTr</tns:text>
     <tns:favoritescount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</tns:favoritescount>
     <tns:retweetcount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</tns:retweetcount>
-    <tns:Contains rdf:nodeID="Ncddf76fefe37491d892976e1a5f64048"/>
-    <tns:Using rdf:nodeID="Ne93b27ec8a6a4b4db9271474b5c2cff4"/>
+    <tns:contains rdf:resource="https://t.co/m4QLVq0BTr"/>
+    <tns:using rdf:nodeID="Ne2899abaaf334f5bb5ceb2ab7fed3f0b"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://twitter.com/wantirnaweather/statuses/715690141306650624">
     <rdf:type rdf:resource="http://www.test.com/Tweet"/>
@@ -45,22 +45,27 @@
     <tns:text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wantirna, VIC, AU 11:00 AM Temp 19.8°C, RH 67pct, Winds NNW @ 0.0 km/h, Rain Today  0 mm, 1014.3 hpa &amp;amp; Steady. #vicweather</tns:text>
     <tns:favoritescount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</tns:favoritescount>
     <tns:retweetcount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</tns:retweetcount>
-    <tns:Using rdf:nodeID="N6c8be2dc4eee41b9abb55fa6ee2e0c32"/>
+    <tns:tags rdf:nodeID="vicweather"/>
+    <tns:using rdf:nodeID="Naf513355c88b49e2b05f46a265e05aef"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="Ncddf76fefe37491d892976e1a5f64048">
+  <rdf:Description rdf:nodeID="Naf513355c88b49e2b05f46a265e05aef">
+    <rdf:type rdf:resource="http://www.test.com/Source"/>
+    <tns:name>Weather Display Tweet</tns:name>
+    <tns:link>http://www.weather-display.com</tns:link>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://t.co/m4QLVq0BTr">
     <rdf:type rdf:resource="http://www.test.com/Link"/>
     <tns:url>https://t.co/m4QLVq0BTr</tns:url>
     <tns:expandedurl>http://fb.me/WUTD9TnQ</tns:expandedurl>
     <tns:displayurl>fb.me/WUTD9TnQ</tns:displayurl>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="Ne93b27ec8a6a4b4db9271474b5c2cff4">
+  <rdf:Description rdf:nodeID="vicweather">
+    <rdf:type rdf:resource="http://www.test.com/Hashtag"/>
+    <tns:hastagtext>vicweather</tns:hastagtext>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ne2899abaaf334f5bb5ceb2ab7fed3f0b">
     <rdf:type rdf:resource="http://www.test.com/Source"/>
     <tns:name>Facebook</tns:name>
     <tns:link>http://www.facebook.com/twitter</tns:link>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N6c8be2dc4eee41b9abb55fa6ee2e0c32">
-    <rdf:type rdf:resource="http://www.test.com/Source"/>
-    <tns:name>Weather Display Tweet</tns:name>
-    <tns:link>http://www.weather-display.com</tns:link>
   </rdf:Description>
 </rdf:RDF>
