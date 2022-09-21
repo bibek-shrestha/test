@@ -16,6 +16,11 @@
     <tns:location>Australia</tns:location>
     <tns:tweets rdf:resource="http://twitter.com/losebabyweight1/statuses/715690143449899009"/>
   </rdf:Description>
+  <rdf:Description rdf:nodeID="N3960cc9ea4894e78b70166cc5159c344">
+    <rdf:type rdf:resource="http://www.test.com/Source"/>
+    <tns:name>Facebook</tns:name>
+    <tns:link>http://www.facebook.com/twitter</tns:link>
+  </rdf:Description>
   <rdf:Description rdf:about="http://www.twitter.com/wantirnaweather">
     <rdf:type rdf:resource="http://www.test.com/User"/>
     <tns:id>1024397578801</tns:id>
@@ -37,7 +42,16 @@
     <tns:favoritescount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</tns:favoritescount>
     <tns:retweetcount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</tns:retweetcount>
     <tns:contains rdf:resource="https://t.co/m4QLVq0BTr"/>
-    <tns:using rdf:nodeID="Ne2899abaaf334f5bb5ceb2ab7fed3f0b"/>
+    <tns:tags rdf:nodeID="iHeartAwards"/>
+    <tns:tags rdf:nodeID="BestFanArmy"/>
+    <tns:tags rdf:nodeID="5SOSFam"/>
+    <tns:using rdf:nodeID="N3960cc9ea4894e78b70166cc5159c344"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://t.co/m4QLVq0BTr">
+    <rdf:type rdf:resource="http://www.test.com/Link"/>
+    <tns:url>https://t.co/m4QLVq0BTr</tns:url>
+    <tns:expandedurl>http://fb.me/WUTD9TnQ</tns:expandedurl>
+    <tns:displayurl>fb.me/WUTD9TnQ</tns:displayurl>
   </rdf:Description>
   <rdf:Description rdf:about="http://twitter.com/wantirnaweather/statuses/715690141306650624">
     <rdf:type rdf:resource="http://www.test.com/Tweet"/>
@@ -46,26 +60,27 @@
     <tns:favoritescount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</tns:favoritescount>
     <tns:retweetcount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</tns:retweetcount>
     <tns:tags rdf:nodeID="vicweather"/>
-    <tns:using rdf:nodeID="Naf513355c88b49e2b05f46a265e05aef"/>
+    <tns:using rdf:nodeID="Nbdb1ca17daf54314be5e907acab3bf5a"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="Naf513355c88b49e2b05f46a265e05aef">
+  <rdf:Description rdf:nodeID="Nbdb1ca17daf54314be5e907acab3bf5a">
     <rdf:type rdf:resource="http://www.test.com/Source"/>
     <tns:name>Weather Display Tweet</tns:name>
     <tns:link>http://www.weather-display.com</tns:link>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://t.co/m4QLVq0BTr">
-    <rdf:type rdf:resource="http://www.test.com/Link"/>
-    <tns:url>https://t.co/m4QLVq0BTr</tns:url>
-    <tns:expandedurl>http://fb.me/WUTD9TnQ</tns:expandedurl>
-    <tns:displayurl>fb.me/WUTD9TnQ</tns:displayurl>
   </rdf:Description>
   <rdf:Description rdf:nodeID="vicweather">
     <rdf:type rdf:resource="http://www.test.com/Hashtag"/>
     <tns:hastagtext>vicweather</tns:hastagtext>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="Ne2899abaaf334f5bb5ceb2ab7fed3f0b">
-    <rdf:type rdf:resource="http://www.test.com/Source"/>
-    <tns:name>Facebook</tns:name>
-    <tns:link>http://www.facebook.com/twitter</tns:link>
+  <rdf:Description rdf:nodeID="iHeartAwards">
+    <rdf:type rdf:resource="http://www.test.com/Hashtag"/>
+    <tns:hastagtext>iHeartAwards</tns:hastagtext>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="5SOSFam">
+    <rdf:type rdf:resource="http://www.test.com/Hashtag"/>
+    <tns:hastagtext>5SOSFam</tns:hastagtext>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="BestFanArmy">
+    <rdf:type rdf:resource="http://www.test.com/Hashtag"/>
+    <tns:hastagtext>BestFanArmy</tns:hastagtext>
   </rdf:Description>
 </rdf:RDF>
